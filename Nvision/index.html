@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Main CSS -->
+        <link href="style.css" rel="stylesheet">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+
+        <title>Nvision Encore Test</title>
+
+        <!-- Optional JavaScript -->
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+
+        <script>
+            $(document).scroll(function () {
+                var $nav = $(".nav-fixed-top");
+                $nav.toggleClass('scrolled', $(this).scrollTop() >= $nav.height());
+            });
+        </script>
+    </head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top nav-fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home"><img src="assets/encore-logo-white.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href="#about-us">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#our-services">Our Services</a>
+                    </li>
+                </ul>
+                <button class="contact-us-button" type="submit"><a class="nav-link text-white"
+                        href="#contact-us">Contact
+                        Us</a></button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Full Page Image Header with Vertically Centered Content -->
+    <header class="masthead" id="home">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 ">
+                    <h1 class="fw-light title">Project-based and Permanent IT Staffing Solutions</h1>
+                    <p class="lead sub-text">Top-tier information technology talent on demand</p>
+                </div>
+                <div class="flex button-container">
+                    <button id="contact_us_button" class="flex-child" type="button">Contact Us</button>
+                    <button id="learn_more_button" class="flex-child" type="submit">Learn More</button>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    <section class="about-section" id="about-us">
+        <div class="container h-100">
+            <div class="row">
+                <div class="content-column col-lg-6 col-md-12 col-sm-12 order-2">
+                    <div class="inner-column">
+                        <div class="sec-title">
+                            <h4><span class="about-us-title">ABOUT US</span></h4>
+                            <h2 class="about-us-subtitle">Top-tier information technology talent on demand</h2>
+                        </div>
+                        <div class="about-us-subtext">
+                            <p>Encore Technical Solutions Inc. is the Greater Toronto Area’s premier new provider of
+                                project-based and permanent Information Technology staffing solutions. </p>
+
+                            <p>We specialize in placing thoroughly screened, well-vetted technology talent to support
+                                your
+                                full-time or project-based hiring requirements, from programmers and business analysts
+                                to
+                                project managers and digital media specialists.</p>
+
+                            <p>Encore is led by seasoned recruitment professionals with extensive backgrounds in IT
+                                staffing and long track records of success. Guided by core values of integrity,
+                                accountability, professionalism and trust, we are results-oriented and provide
+                                exceptional
+                                commitment to our clients and the consultants we place.</p>
+
+                            <p>Feel free to reach out to us with inquiries and watch this space for more news about the
+                                exciting launch of Encore Technical Solutions!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Image Column -->
+                <div class="image-column col-lg-6 col-md-12 col-sm-12">
+                    <div class="inner-column">
+                        <figure class="image-1"><a href="#" class="lightbox-image" data-fancybox="images"><img
+                                    src="assets/about-us-person talking-phone.jpg" alt=""></a></figure>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services-section" id="our-services">
+        <div class="container">
+            <h2 class="fw-light text-center">What we offer</h2>
+            <div class="container">
+                <div class="card-deck">
+                    <div class="card">
+                        <img src="assets/project-staffing-icon.svg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Project Staffing</h5>
+                            <p class="card-text">Our vast network of technology professionals continues to grow every
+                                day, to ensure we have access to a wide range of qualified candidates for your contract
+                                hiring needs.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/permanent-staffing-icon.svg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Permanent Staffing</h5>
+                            <p class="card-text">We work closely with your internal hiring teams to source candidates
+                                who not only fit the technical requirements of the role, but the cultural fit as well.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/payroll-icon.svg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Payroll & Employer of Record</h5>
+                            <p class="card-text">Our contractor payroll service helps simplify and streamline processing
+                                contract hires you have identified directly by allowing Encore to provide payroll
+                                processing and EOR services.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-us-section" id="contact-us">
+        <div class="container h-100">
+            <div>
+                <h4>CONTACT US</h4>
+                <h3>LETS GET IN TOUCH</h3>
+
+            </div>
+            <div class="row">
+                <div class="column">
+                    <h5>Contact Information</h5>
+                    <p><img src="assets/paper-plane-icon.svg"> info@encoretechnical.com</p>
+                    <p><img src="assets/phone-icon.svg"> 098-765-4321</p>
+                </div>
+                <div class="column">
+                    <h5>Please fill out the contact form and we will be in touch</h5>
+                    <form>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        <select id="inquiries" name="inquiries">
+                            <option value="inquiries">Inquiry Type</option>
+                            <option value="inquiries">Inquiry Type</option>
+                            <option value="inquiries">Inquiry Type</option>
+                        </select>
+                        <br><br>
+                        <textarea id="subject" name="subject" placeholder="Write something.."
+                            style="height:170px"></textarea>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer text-center">
+        <div class="container footer-logo">
+            <img src="assets/encore-footer-logo.png" alt="" class="footer-logo">
+        </div>
+        <p class="text-center copyright">© 2021 Encoure. All Rights Reserved.</p>
+        <p class="text-center nvision">Web Design by NVISION</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
